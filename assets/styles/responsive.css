@@ -1,0 +1,32 @@
+@media screen and (max-width: 576px) {
+    .container {
+        max-width: 576px;
+    }
+nav {
+    flex-direction: column;
+    gap: 10px;
+}
+.menu-container {
+    flex-direction: column;
+    gap: 10px;
+}
+.menu {
+    /* border: 2px solid green; */
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .nav-btn {
+    width: 94%;
+  }
+  .hero {
+    flex-direction: column;
+    height: auto;
+  }
+  .hero-content {
+    width: 100%;
+    padding: 20px 0px;
+    text-align: center;
+  }
+  .hero-img {
+    width: 100%;
+  }
+}

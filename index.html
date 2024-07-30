@@ -1,48 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Template Design</title>
-    <link rel="stylesheet" href="assets/style.css">
-</head>
-<body>
-    <!-- Header section start -->
-        <header>
-            <!-- NavBar section start -->
-             <nav  class="container">
-                <div class="">
-                    <h3 class="logo playfair-display">Mundana</h3>
-                </div>
-                <div class="menu">
-                    <ul class="menu-items">
-                        <li class="nav-menu-list"><a class="nav-link" href="#">Intro</a></li>
-                        <li class="nav-menu-list"><a class="nav-link" href="#">Culture</a></li>
-                        <li class="nav-menu-list"><a class="nav-link" href="#">Tech</a></li>
-                        <li class="nav-menu-list"><a class="nav-link" href="#">Politics</a></li>
-                        <li class="nav-menu-list"><a class="nav-link" href="#">Health</a></li>
-                        <li class="nav-menu-list"><a class="nav-link" href="#">Collections</a></li>
-                        <li class="nav-menu-list"><a class="nav-link" href="#">About</a></li>
-                        <li class="nav-menu-list"><a class="nav-link" href="#">Template <span>docs</span></a></li>
-                    </ul>
-                    <div class="nav-btn">
-                        <a href="#">Get This Theme</a>
-                    </div>
-                </div>
-                
-             </nav>
-            <!-- NavBar section end -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Template layout design 1</title>
+    <!-- Custom CSS styles -->
+    <link rel="stylesheet" href="assets/styles/style.css" />
+    <link rel="stylesheet" href="assets/styles/responsive.css" />
+  </head>
+  <body>
+    <!-- header section start -->
+    <header>
+      <!-- navbar section start -->
+      <nav class="container flex">
+        <!-- Logo section start -->
+        <h3 class="playfair-display logo">
+          <a href="#" class="logo-link">Mundana</a>
+        </h3>
+        <!-- Logo section end -->
 
-            <!-- Hero section start -->
-             <section class="hero"></section>
-            <!-- Hero section end -->
-        </header>
-    <!-- Header section end -->
+        <!-- Menu section start -->
+        <div class="menu-container flex">
+          <ul class="menu grid">
+            <li class="menu-item"><a href="#" class="menu-link">Intro</a></li>
+            <li class="menu-item"><a href="#" class="menu-link">Culture</a></li>
+            <li class="menu-item"><a href="#" class="menu-link">Tech</a></li>
+            <li class="menu-item">
+              <a href="#" class="menu-link">Politics</a>
+            </li>
+            <li class="menu-item"><a href="#" class="menu-link">Health</a></li>
+            <li class="menu-item">
+              <a href="#" class="menu-link">Collections</a>
+            </li>
+            <li class="menu-item"><a href="#" class="menu-link">About</a></li>
+            <li class="menu-item">
+              <a href="#" class="menu-link"
+                >Template<span class="special-menu-item">docs</span></a
+              >
+            </li>
+          </ul>
+          <div class="nav-btn">
+            <a href="#" class="nav-btn-link">Get This Theme</a>
+          </div>
+        </div>
+        <!-- Menu section end -->
+      </nav>
+      <!-- navbar section end -->
 
-    <!-- Main section start -->
-    <!-- Main section end -->
+      <!-- hero section start -->
+      <section class="hero container flex">
+        <div class="hero-content flex">
+          <h1 class="hero-title playfair-display">
+            Mundana is an HTML <br />Bootstrap Template for <br />Professional
+            Blogging
+          </h1>
+          <p class="hero-description">
+            Beautifully crafted with the latest technologies, SASS & Bootstrap
+            4.1.3, Mundana is the perfect design for your professional blog.
+            Homepage, post article and category layouts available.
+          </p>
+          <div class="hero-btn">
+            <a href="#" class="hero-btn-link">Read More</a>
+          </div>
+        </div>
+        <div class="hero-img">
+          <img
+            src="assets/images/background.jpg"
+            alt="Mundana is an HTML Bootstrap Template for Professional Blogging"
+            title="Mundana is an HTML Bootstrap Template for Professional Blogging"
+          />
+        </div>
+      </section>
+      <!-- hero section end -->
+    </header>
+    <!-- header section end -->
 
-    <!-- Footer section start -->
-    <!-- Footer section end -->
-</body>
+    <!-- main section start -->
+    <main>
+      <!-- article section start -->
+      <div class="article-container container flex">
+        <div class="article-left">
+          <div class="article-left-img">
+            <img
+              src="assets/images/article-left.jpg"
+              alt="Brain Stimulation Relieves Depression Symptoms"
+              title="Brain Stimulation Relieves Depression Symptoms"
+            />
+          </div>
+          <h2 class="article-left-title">
+            Brain Stimulation Relieves Depression Symptoms
+          </h2>
+          <p class="article-left-description">
+            Researchers have found an effective target in the brain for
+            electrical stimulation to improve mood in people suffering from
+            depression.
+          </p>
+          <p class="article-writer-name">Favid Rick</p>
+          <p class="article-date">Dec 12 · 5 min read</p>
+        </div>
+        <div class="article-right">
+          <div class="article-cards">
+            <div class="article-card flex">
+              <div class="article-card-img">
+                <img
+                  src="assets/images/article-card-1.jpeg"
+                  alt="Nasa's IceSat space laser makes height maps of Earth"
+                  title="Nasa's IceSat space laser makes height maps of Earth"
+                />
+              </div>
+              <div class="article-card-content">
+                <h3 class="article-card-title">
+                  Nasa's IceSat space laser makes height maps of Earth
+                </h3>
+                <p class="article-writer-name">Jake Bittle in LOVE/HATE</p>
+                <p class="article-date">Dec 12 · 5 min read</p>
+              </div>
+            </div>
+            <div class="article-card flex">
+              <div class="article-card-img">
+                <img
+                  src="assets/images/article-card-1.jpeg"
+                  alt="Nasa's IceSat space laser makes height maps of Earth"
+                  title="Nasa's IceSat space laser makes height maps of Earth"
+                />
+              </div>
+              <div class="article-card-content">
+                <h3 class="article-card-title">
+                  Nasa's IceSat space laser makes height maps of Earth
+                </h3>
+                <p class="article-writer-name">Jake Bittle in LOVE/HATE</p>
+                <p class="article-date">Dec 12 · 5 min read</p>
+              </div>
+            </div>
+            <div class="article-card flex">
+              <div class="article-card-img">
+                <img
+                  src="assets/images/article-card-1.jpeg"
+                  alt="Nasa's IceSat space laser makes height maps of Earth"
+                  title="Nasa's IceSat space laser makes height maps of Earth"
+                />
+              </div>
+              <div class="article-card-content">
+                <h3 class="article-card-title">
+                  Nasa's IceSat space laser makes height maps of Earth
+                </h3>
+                <p class="article-writer-name">Jake Bittle in LOVE/HATE</p>
+                <p class="article-date">Dec 12 · 5 min read</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- article section end -->
+
+      <!-- stories section start -->
+      <!-- stories section end -->
+    </main>
+    <!-- main section end -->
+
+    <!-- footer section start -->
+    <footer></footer>
+    <!-- footer section end -->
+  </body>
 </html>
